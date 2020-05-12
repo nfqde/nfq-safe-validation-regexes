@@ -24,6 +24,11 @@
     "url": "https://github.com/nfqde/nfq-safe-validation-regexes/issues"
   },
   "homepage": "https://github.com/nfqde/nfq-safe-validation-regexes#readme",
+  "standard-version": {
+    "scripts": {
+      "prebump": "nfqBump"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
