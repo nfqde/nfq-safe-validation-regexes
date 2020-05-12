@@ -1,0 +1,32 @@
+{
+  "name": "@nfq/safe-validation-regex",
+  "version": "1.0.0",
+  "description": "An library composed of OWASP recommended save validation regexes for use in validation tasks.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "npm-publish": "babel src --out-dir dist && standard-version && git push --follow-tags master && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfqde/nfq-safe-validation-regexes.git"
+  },
+  "keywords": [
+    "Regex",
+    "Validation",
+    "OWASP",
+    "safe"
+  ],
+  "author": ".NFQ | Christoph Kruppe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfqde/nfq-safe-validation-regexes/issues"
+  },
+  "homepage": "https://github.com/nfqde/nfq-safe-validation-regexes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0"
+  }
+}

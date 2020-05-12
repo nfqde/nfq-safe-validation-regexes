@@ -1,0 +1,12 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Files
+.eslintrc
+.babelrc
+
+# Folders
+node_modules
+src
