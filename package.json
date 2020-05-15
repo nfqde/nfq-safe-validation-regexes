@@ -1,6 +1,6 @@
 {
   "name": "@nfq/safe-validation-regex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An library composed of OWASP recommended save validation regexes for use in validation tasks.",
   "main": "dist/index.js",
   "scripts": {
