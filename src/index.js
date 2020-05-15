@@ -16,6 +16,7 @@ const germanMonthWords = /^(Jan|Feb|M(ae|ä)r|Apr|Mai|Jun|Jul|Aug|Sep|Oct|Nov|De
 const usZipCode = /^\d{5}(-\d{4})?$/;
 const germanZipCode = /^\d{5}$/;
 const cssColorCode = /^#?([a-f]|[A-F]|[0-9]){3}(([a-f]|[A-F]|[0-9]){3})?$/;
+const intNumber = /^[-+]?[0-9]+$/;
 const floatNumber = /^[-+]?[0-9]+[.]?[0-9]*([eE][-+]?[0-9]+)?$/;
 const personName = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
 const macAdress = /^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$/;
@@ -43,6 +44,7 @@ export {
     usZipCode,
     germanZipCode,
     cssColorCode,
+    intNumber,
     floatNumber,
     personName,
     macAdress,
