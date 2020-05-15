@@ -159,6 +159,14 @@ CSS hex colorcode
 
 ---
 
+## **intNumber**
+
+`^[-+]?[0-9]+$`
+
+Integer numbers
+
+---
+
 ## **floatNumber**
 
 `^[-+]?[0-9]+[.]?[0-9]*([eE][-+]?[0-9]+)?$`
