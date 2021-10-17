@@ -3,17 +3,19 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.anyPlattformFileName = exports.windowsFileName = exports.domainName = exports.guid = exports.macAdress = exports.personName = exports.floatNumber = exports.cssColorCode = exports.germanZipCode = exports.usZipCode = exports.germanMonthWords = exports.englishMonthWords = exports.germanDayWords = exports.englishDayWords = exports.germanDigitWords = exports.englishDigitWords = exports.complexPassword = exports.simplePassword = exports.creditcard = exports.date = exports.safeText = exports.email = exports.ip = exports.url = void 0;
+exports.anyPlattformFileName = exports.windowsFileName = exports.domainName = exports.guid = exports.macAdress = exports.personName = exports.floatNumber = exports.intNumber = exports.cssColorCode = exports.germanZipCode = exports.usZipCode = exports.germanMonthWords = exports.englishMonthWords = exports.germanDayWords = exports.englishDayWords = exports.germanDigitWords = exports.englishDigitWords = exports.complexPassword = exports.simplePassword = exports.creditcard = exports.deDate = exports.usDate = exports.safeText = exports.email = exports.ip = exports.url = void 0;
 var url = /^((((https?|ftps?|gopher|telnet|nntp):\/\/)|(mailto:|news:))(%[0-9A-Fa-f]{2}|[-()_.!~*';/?:@&=+$,A-Za-z0-9])+)([).!';/?:,][[:blank:|:blank:]])?$/;
 exports.url = url;
 var ip = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
 exports.ip = ip;
 var email = /^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,7}$/;
 exports.email = email;
-var safeText = /^[a-zA-Z0-9 .-]+$/;
+var safeText = /^[a-zA-Z0-9 .-\u00F0-\u02AF]+$/;
 exports.safeText = safeText;
-var date = /^(?:(?:(?:0?[13578]|1[02])(\/|-|\.)31)\1|(?:(?:0?[1,3-9]|1[0-2])(\/|-|\.)(?:29|30)\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:0?2(\/|-|\.)29\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:(?:0?[1-9])|(?:1[0-2]))(\/|-|\.)(?:0?[1-9]|1\d|2[0-8])\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/;
-exports.date = date;
+var usDate = /^(?:(?:(?:0?[13578]|1[02])(\/|-|\.)31)\1|(?:(?:0?[1,3-9]|1[0-2])(\/|-|\.)(?:29|30)\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:0?2(\/|-|\.)29\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:(?:0?[1-9])|(?:1[0-2]))(\/|-|\.)(?:0?[1-9]|1\d|2[0-8])\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/;
+exports.usDate = usDate;
+var deDate = /^((((0?[1-9]|[12]\d|3[01])[\.\-\/](0?[13578]|1[02])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|[12]\d|30)[\.\-\/](0?[13456789]|1[012])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|1\d|2[0-8])[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|(29[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00)))|(((0[1-9]|[12]\d|3[01])(0[13578]|1[02])((1[6-9]|[2-9]\d)?\d{2}))|((0[1-9]|[12]\d|30)(0[13456789]|1[012])((1[6-9]|[2-9]\d)?\d{2}))|((0[1-9]|1\d|2[0-8])02((1[6-9]|[2-9]\d)?\d{2}))|(2902((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00))))$/;
+exports.deDate = deDate;
 var creditcard = /^((4\d{3})|(5[1-5]\d{2})|(6011)|(7\d{3}))-?\d{4}-?\d{4}-?\d{4}|3[4,7]\d{13}$/;
 exports.creditcard = creditcard;
 var simplePassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$/; // 4 to 8 chars, lower and uppercase
@@ -40,9 +42,11 @@ var germanZipCode = /^\d{5}$/;
 exports.germanZipCode = germanZipCode;
 var cssColorCode = /^#?([a-f]|[A-F]|[0-9]){3}(([a-f]|[A-F]|[0-9]){3})?$/;
 exports.cssColorCode = cssColorCode;
+var intNumber = /^[-+]?[0-9]+$/;
+exports.intNumber = intNumber;
 var floatNumber = /^[-+]?[0-9]+[.]?[0-9]*([eE][-+]?[0-9]+)?$/;
 exports.floatNumber = floatNumber;
-var personName = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
+var personName = /^[a-zA-Z\u00F0-\u02AF]+(([',. -][a-zA-Z\u00F0-\u02AF ])?[a-zA-Z\u00F0-\u02AF]*)*$/;
 exports.personName = personName;
 var macAdress = /^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$/;
 exports.macAdress = macAdress;
