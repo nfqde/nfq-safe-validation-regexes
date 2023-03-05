@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/nfqde/nfq-safe-validation-regexes/compare/v1.3.0...v1.3.1) (2023-03-05)
+
+
+### Bug Fixes
+
+* **Ignore:** Ignore cypress config ([#9](https://github.com/nfqde/nfq-safe-validation-regexes/issues/9)) ([6139b4d](https://github.com/nfqde/nfq-safe-validation-regexes/commit/6139b4d75b9b6d8f48b30384e4da71fcea58d9e0))
+
 ## [1.3.0](https://github.com/nfqde/nfq-safe-validation-regexes/compare/v1.2.0...v1.3.0) (2023-03-05)
 
 
