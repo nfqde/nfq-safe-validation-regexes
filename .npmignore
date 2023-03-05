@@ -1,12 +1,32 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Files
-.eslintrc
+# babel
 .babelrc
+.babelrc.js
+babel.config.js
 
-# Folders
-node_modules
+# eslint
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+
+# git
+.github
+.gitignore
+.gitattributes
+
+# testing
+.nyc_output
+coverage
+cypress
+webpack.cypress.config.js
+horusec-config.json
+
+# builds
+tsconfig.json
+tsconfig.tsbuildinfo
+rollup.config.mjs
+
+# package src
+pnpm-lock.yaml
 src
+
+.npmrc
