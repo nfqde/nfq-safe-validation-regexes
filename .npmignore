@@ -12,6 +12,7 @@ babel.config.js
 .github
 .gitignore
 .gitattributes
+**/.gitkeep
 
 # testing
 .nyc_output

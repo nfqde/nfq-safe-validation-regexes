@@ -3,4 +3,4 @@ export const deDate = /^((((0?[1-9]|[12]\d|3[01])[.\-/](0?[13578]|1[02])[.\-/]((
 export const englishDayWords = /^(Mo|Tu|We|Th|Fr|Sa|Su)$/u;
 export const germanDayWords = /^(Mo|Di|Mi|Do|Fr|Sa|So)$/u;
 export const englishMonthWords = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$/u;
-export const germanMonthWords = /^(Jan|Feb|M(ae|ä)r|Apr|Mai|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$/u;
+export const germanMonthWords = /^(Jan|Feb|M(ae|ä)r|Apr|Mai|Jun|Jul|Aug|Sep|Oct|Nov|Dez)$/u;
