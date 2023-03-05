@@ -17,7 +17,7 @@ babel.config.js
 .nyc_output
 coverage
 cypress
-webpack.cypress.config.js
+cypress.config.ts
 horusec-config.json
 
 # builds
