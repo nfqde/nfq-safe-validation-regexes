@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/nfqde/nfq-safe-validation-regexes/compare/v1.2.0...v1.3.0) (2023-03-05)
+
+
+### Features
+
+* **Typescript:** Full rebuild with typescript ([#7](https://github.com/nfqde/nfq-safe-validation-regexes/issues/7)) ([62a39b4](https://github.com/nfqde/nfq-safe-validation-regexes/commit/62a39b482f61605771e545f76a9377484185493f))
+
 ## [1.2.0](https://github.com/nfqde/nfq-safe-validation-regexes/compare/v1.1.0...v1.2.0) (2021-10-17)
 
 

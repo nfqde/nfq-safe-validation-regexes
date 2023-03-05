@@ -2,8 +2,14 @@
   "name": "@nfq/safe-validation-regex",
   "description": "An library composed of OWASP recommended save validation regexes for use in validation tasks.",
   "author": ".NFQ | Christoph Kruppe",
-  "version": "1.2.0",
-  "keywords": ["Regex", "Validation", "OWASP", "Security", "Safe"],
+  "version": "1.3.0",
+  "keywords": [
+    "Regex",
+    "Validation",
+    "OWASP",
+    "Security",
+    "Safe"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
