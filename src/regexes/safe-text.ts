@@ -1,0 +1,1 @@
+export const safeText = /^[a-zA-Z0-9 .-\u00F0-\u02AF]+$/u;
