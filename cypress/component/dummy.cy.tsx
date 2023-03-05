@@ -1,7 +1,8 @@
-import {demoFunction} from '../../src/index';
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+import {email} from '../../src/index';
 
 describe('dummy.cy.tsx', () => {
     it('playground', () => {
-        expect(demoFunction()).to.equal('demo');
+        expect(email.test('c.kruppe@nfq.de')).to.be.true;
     });
 });
