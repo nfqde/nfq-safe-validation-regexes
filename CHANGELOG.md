@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/nfqde/nfq-safe-validation-regexes/compare/v1.3.3...v1.4.0) (2023-06-20)
+
+
+### Features
+
+* **App:** Update packages ([4e5d06f](https://github.com/nfqde/nfq-safe-validation-regexes/commit/4e5d06f38575982c454f11a323356fdda6c725f3))
+
 ### [1.3.3](https://github.com/nfqde/nfq-safe-validation-regexes/compare/v1.3.2...v1.3.3) (2023-05-02)
 
 
