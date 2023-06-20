@@ -63,10 +63,10 @@
     "@nfq/eslint-config": "^2.3.0",
     "@nfq/eslint-plugin": "^0.6.0",
     "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@types/cypress__code-coverage": "^3.10.0",
-    "@types/node": "^18.16.3",
+    "@types/node": "^20.3.1",
     "@types/react": "^18.2.0",
     "@types/webpack": "^5.28.1",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
@@ -107,7 +107,7 @@
     "typescript": "^5.0.4",
     "webpack": "^5.81.0",
     "webpack-cli": "^5.0.2",
-    "webpack-dev-server": "4.13.3"
+    "webpack-dev-server": "4.15.1"
   },
   "externals": {
     "typescript": ">= 4.9.5"
