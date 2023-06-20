@@ -5,7 +5,7 @@ const deDate = /^((((0?[1-9]|[12]\d|3[01])[.\-/](0?[13578]|1[02])[.\-/]((1[6-9]|
 const englishDayWords = /^(Mo|Tu|We|Th|Fr|Sa|Su)$/u;
 const germanDayWords = /^(Mo|Di|Mi|Do|Fr|Sa|So)$/u;
 const englishMonthWords = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$/u;
-const germanMonthWords = /^(Jan|Feb|M(ae|ä)r|Apr|Mai|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$/u;
+const germanMonthWords = /^(Jan|Feb|M(ae|ä)r|Apr|Mai|Jun|Jul|Aug|Sep|Oct|Nov|Dez)$/u;
 
 const ip = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/u;
 
